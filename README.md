@@ -26,15 +26,23 @@ Linux/
 │   ├── 06-package-management.md
 │   ├── 07-archiving-compression.md
 │   └── 08-io-redirection-piping.md
-└── advanced/
-    ├── 01-shell-scripting.md
-    ├── 02-systemd-services.md
-    ├── 03-cron-scheduling.md
-    ├── 04-firewall-security.md
-    ├── 05-performance-monitoring.md
-    ├── 06-docker-basics.md
-    ├── 07-git-version-control.md
-    └── 08-advanced-networking.md
+├── advanced/
+│   ├── 01-shell-scripting.md
+│   ├── 02-systemd-services.md
+│   ├── 03-cron-scheduling.md
+│   ├── 04-firewall-security.md
+│   ├── 05-performance-monitoring.md
+│   ├── 06-docker-basics.md
+│   ├── 07-git-version-control.md
+│   └── 08-advanced-networking.md
+└── practical-terminal-guidance/  ← Hands-on recipes & workflows
+    ├── 01-terminal-basics-and-shortcuts.md
+    ├── 02-command-chaining-workflows.md
+    ├── 03-file-directory-management.md
+    ├── 04-text-processing-recipes.md
+    ├── 05-system-troubleshooting.md
+    ├── 06-productivity-hacks.md
+    └── 07-real-world-scenarios.md
 ```
 
 ---
@@ -76,6 +84,18 @@ Linux/
 | 6 | [Docker Basics](advanced/06-docker-basics.md) | `docker run`, `docker build` |
 | 7 | [Git Version Control](advanced/07-git-version-control.md) | `git add`, `git commit`, `git push` |
 | 8 | [Advanced Networking](advanced/08-advanced-networking.md) | `ss`, `nmap`, `tcpdump` |
+
+## 🧪 Practical Terminal Guidance
+
+| # | Topic | What You'll Learn |
+|---|-------|-------------------|
+| 1 | [Terminal Basics & Shortcuts](practical-terminal-guidance/01-terminal-basics-and-shortcuts.md) | Keyboard shortcuts, history, tab completion, tmux |
+| 2 | [Command Chaining & Workflows](practical-terminal-guidance/02-command-chaining-workflows.md) | Pipes, redirection, xargs, process substitution |
+| 3 | [File & Directory Management](practical-terminal-guidance/03-file-directory-management.md) | Bulk rename, find recipes, permissions, links |
+| 4 | [Text Processing Recipes](practical-terminal-guidance/04-text-processing-recipes.md) | grep, sed, awk, cut, sort, uniq recipes |
+| 5 | [System Troubleshooting](practical-terminal-guidance/05-system-troubleshooting.md) | Boot, disk, CPU, memory, network diagnostics |
+| 6 | [Productivity Hacks](practical-terminal-guidance/06-productivity-hacks.md) | Aliases, functions, SSH config, dotfiles |
+| 7 | [Real-World Scenarios](practical-terminal-guidance/07-real-world-scenarios.md) | Server setup, Docker, databases, deployments |
 
 ---
 
