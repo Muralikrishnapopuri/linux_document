@@ -14,18 +14,23 @@ Process and transform text line by line.
 # Replace first occurrence per line
 sed 's/old/new/' file.txt
 
+
 # Replace ALL occurrences per line
 sed 's/old/new/g' file.txt
+
 
 # Case-insensitive replace
 sed 's/old/new/gI' file.txt
 
+
 # Edit file in-place
 sed -i 's/old/new/g' file.txt
+
 
 # Edit in-place with backup
 sed -i.bak 's/old/new/g' file.txt
 ```
+
 
 ### Line Operations
 

@@ -94,6 +94,7 @@ echo "All arguments: $@"
 
 read -p "Enter a number: " num
 
+
 if [ $num -gt 100 ]; then
     echo "Greater than 100"
 elif [ $num -gt 50 ]; then
